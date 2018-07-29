@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "string": "cpp",
+        "nvs_flash.h": "c",
+        "__locale": "cpp",
+        "bitset": "cpp"
+    }, 
+}
