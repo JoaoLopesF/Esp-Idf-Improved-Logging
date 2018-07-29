@@ -63,7 +63,7 @@ Please download and flash the example application to learn about _log.h_
 
 Example output to esp-idf monitor:
     
-    ![Imgur](https://i.imgur.com/ZVCQENq.png)
+![Imgur Image](https://i.imgur.com/ZVCQENq.png)
 
 ## Using
 
