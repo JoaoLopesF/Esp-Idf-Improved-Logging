@@ -98,9 +98,9 @@ before put your project in prodution.
 
 Simple uncomment it in _log.h_:
 
-    ``` 
-    //#define LOG_DISABLED true
-    ```
+``` 
+//#define LOG_DISABLED true
+```
 
 ## Releases
 
