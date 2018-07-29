@@ -4,15 +4,6 @@
 
 #### Works with the ESP32 - esp-idf v3.0 or higher. Refer to https://github.com/espressif/esp-idf
 
-## Contents
- - [About](#about)
- - [Example of use](#example)
- - [Using _log.h_ macros](#macros)
- - [Profiler](#profiler)
- - [Releases](#releases)
- - [Releases](#releases)
- - [Thanks](#thanks)
-
 ## About
 
 This include file _log.h_ extends the powerfull ESP_LOGx with:
@@ -65,7 +56,7 @@ Example output to esp-idf monitor:
     
 ![Imgur Image](https://i.imgur.com/ZVCQENq.png)
 
-## Using
+## Using _log.h_ macros
 
 In _log.h_ have this macros for normal logging (call the ESP_LOGx):
 
