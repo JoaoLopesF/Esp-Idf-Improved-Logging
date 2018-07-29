@@ -26,7 +26,7 @@ This include file _log.h_ extends the powerfull ESP_LOGx with:
          the function that contains the log call
          Usefull to optimize and balance Esp32 multi-core 
 
-This is done with pre-compiler macros
+This is done with precompiler macros
 
 ## Example of use
 
@@ -67,7 +67,7 @@ Example output to esp-idf monitor:
 
 ## Using
 
-In _log.h_ have this macros for normal logging:
+In _log.h_ have this macros for normal logging (call the ESP_LOGx):
 
     logV(fmt, ...)  - Verbose level
     logD(fmt, ...)  - Debug level
@@ -75,7 +75,7 @@ In _log.h_ have this macros for normal logging:
     logW(fmt, ...)  - Warning level
     logE(fmt, ...)  - Error level
 
-And to use in ISR routines (call the ESP_EARLY_LOGV (ets_printf) to not crash Esp32)
+And to use in ISR routines (call the ESP_EARLY_LOGx (ets_printf) to not crash Esp32)
 
     logIsrV(fmt, ...)  - Verbose level
     logIsrD(fmt, ...)  - Debug level
