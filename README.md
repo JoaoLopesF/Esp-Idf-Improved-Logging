@@ -44,7 +44,7 @@ Where:
 
     D               -> level of this ESP_LOG
     (1650)          -> ESP_LOG time
-    P(02)           -> Profile (if my Esp-Idf-Monitor-Simple-Profiler is installed )
+    P(02)           -> Profile (if my Esp-Idf-Monitor-Simple-Profiler is installed, see below)
     demo_log        -> ESP_LOG Tag
     (createTask2)   -> Name of running function - added by log.h macros
     (C0)            -> Core number of running function - added by log.h macros
@@ -92,7 +92,9 @@ You can improve more Esp32 logging, installing my simple profiler to esp-idf, pl
 
 ## Disclamer:
 
-    This logging is for use in development, please disable the _log.h_ logging before put your project in prodution.
+    This logging is for use in development.
+    Please disable the _log.h_ logging,
+    before put your project in prodution.
 
     Simple uncomment it in _log.h_:
 
