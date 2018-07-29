@@ -92,15 +92,15 @@ You can improve more Esp32 logging, installing my simple profiler to esp-idf, pl
 
 ## Disclamer:
 
-    This logging is for use in development.
-    Please disable the _log.h_ logging,
-    before put your project in prodution.
+This logging is for use in development.
+Please disable the _log.h_ logging,
+before put your project in prodution.
 
-    Simple uncomment it in _log.h_:
+Simple uncomment it in _log.h_:
 
-        ``` 
-        //#define LOG_DISABLED true
-        ```
+    ``` 
+    //#define LOG_DISABLED true
+    ```
 
 ## Releases
 
