@@ -76,6 +76,18 @@ And to use in ISR routines (call the ESP_EARLY_LOGx (ets_printf) to not crash Es
 
 Attention: Use this with caution !!! Simple use of ESP_EARLY_LOG can be delay the critical ISR code
 
+To use simple copy the log.h to your project and replace:
+
+```
+#include "esp_log.h"
+```
+
+To:
+
+```
+#include "log.h"
+```
+
 Please open the code to learn more how use this.  
 
 Please see _log.h_ file about configurations, as:
